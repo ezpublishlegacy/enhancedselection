@@ -503,9 +503,10 @@ class eZEnhancedSelectionType extends eZDataType
 		$padded_con = "***";
 		$padded_con .= implode('***', $content);
 		$padded_con .= "***";
-        return array( array( 'id' => '',
-                             'text' => $padded_con,
-                             'literal' => false ) );
+//        return array( array( 'id' => '',
+//                             'text' => $padded_con,
+//                             'literal' => false ) );
+		return $padded_con;
     }
 
     /*!
