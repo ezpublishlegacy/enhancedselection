@@ -2,7 +2,7 @@
 
 /*
     Enhanced Selection extension for eZ publish 3.x
-    Copyright (C) 2003-2005  SCK•CEN (Belgian Nuclear Research Centre)
+    Copyright (C) 2003-2005  SCKï¿½CEN (Belgian Nuclear Research Centre)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@
   \class   ezenhancedselectiontype ezenhancedselectiontype.php
   \ingroup eZDatatype
   \brief   Handles the single and multiple selections.
-  \author  SCK•CEN KM Team <g_km@sckcen.be>
+  \author  SCKï¿½CEN KM Team <g_km@sckcen.be>
   \version 1.1a
 */
 
@@ -35,7 +35,7 @@ class eZEnhancedSelectionType extends eZDataType
     */
     function eZEnhancedSelectionType()
     {
-        $this->eZDataType( EZ_DATATYPESTRING_EZ_ENHANCEDSELECTION, ezi18n( 'extension/datatypes', "Enhanced Selection", 'Datatype name' ),
+        $this->eZDataType( EZ_DATATYPESTRING_EZ_ENHANCEDSELECTION, ezpI18n::tr(( 'extension/datatypes', "Enhanced Selection", 'Datatype name' ),
                            array( 'serialize_supported' => true ) );
     }
 

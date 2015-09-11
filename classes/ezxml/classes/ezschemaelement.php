@@ -4,7 +4,7 @@
 //
 // Definition of eZSchemaElement class
 //
-// Bård Farstad <bf@ez.no>
+// Bï¿½rd Farstad <bf@ez.no>
 // Created on: <13-Feb-2002 10:58:53 bf>
 //
 // SOFTWARE NAME: eZ Publish
