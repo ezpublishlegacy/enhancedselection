@@ -4,7 +4,7 @@
 //
 // Definition of eZSimpleType class
 //
-// Bård Farstad <bf@ez.no>
+// Bï¿½rd Farstad <bf@ez.no>
 // Created on: <14-Feb-2002 10:09:40 bf>
 //
 // SOFTWARE NAME: eZ Publish
