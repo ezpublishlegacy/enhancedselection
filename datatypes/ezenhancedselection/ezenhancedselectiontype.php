@@ -35,7 +35,7 @@ class eZEnhancedSelectionType extends eZDataType
     */
     function eZEnhancedSelectionType()
     {
-        $this->eZDataType( EZ_DATATYPESTRING_EZ_ENHANCEDSELECTION, ezpI18n::tr(( 'extension/datatypes', "Enhanced Selection", 'Datatype name' ),
+        $this->eZDataType( EZ_DATATYPESTRING_EZ_ENHANCEDSELECTION, ezpI18n::tr( 'extension/datatypes', "Enhanced Selection", 'Datatype name' ),
                            array( 'serialize_supported' => true ) );
     }
 

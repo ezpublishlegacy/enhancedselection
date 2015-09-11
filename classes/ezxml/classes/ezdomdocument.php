@@ -658,7 +658,7 @@ class eZDOMDocument
       and let that handle the rest.
 
       \note The charset conversion is smart enough to only do conversion when required
-      \note Using charset conversion will require the ezpI18n::tr( library being installed
+      \note Using charset conversion will require the ezpI18n::tr library being installed
     */
     function toString( $charset = true, $charsetConversion = true, $convertSpecialChars = true )
     {
@@ -697,7 +697,7 @@ class eZDOMDocument
 
         if ( $charsetConversion )
         {
-            //include_once( 'lib/ezpI18n::tr(/classes/eztextcodec.php' );
+            //include_once( 'lib/ezpI18n::tr/classes/eztextcodec.php' );
             $codec = eZTextCodec::instance( false, $charset, false );
             if ( $codec )
             {

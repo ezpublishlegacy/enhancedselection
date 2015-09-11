@@ -130,7 +130,7 @@ class eZXML
 
         if ( $charset !== false )
         {
-            //include_once( 'lib/ezpI18n::tr(/classes/eztextcodec.php' );
+            //include_once( 'lib/ezpI18n::tr/classes/eztextcodec.php' );
             $codec = eZTextCodec::instance( $charset, false, false );
             if ( $codec )
             {
